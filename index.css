@@ -6,6 +6,7 @@ body {
 
 header {
   background-color: blue;
+  flex-shrink: 0;
   height: 80px;
   width: 100%;
 }
@@ -22,6 +23,7 @@ main {
 
 footer {
   background-color: red;
+  flex-shrink: 3;
   height: 80px;
   width: 100%;
 }
